@@ -4,8 +4,8 @@ import cors from 'cors';
 import http from 'http';
 import { Server as SocketIOServer } from 'socket.io';
 import dotenv from 'dotenv';
-import usersRouter from '../routes/users.js';
-import claimsRouter from '../routes/claims.js';
+import usersRouter from './routes/users.js';
+import claimsRouter from './routes/claims.js';
 
 dotenv.config(); // loads environment variables from .env file
 
